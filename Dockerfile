@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Run the app when the container launches
-CMD [ "node", "bot.js" ]
+CMD [ "node", "your-app.js" ]
