@@ -1,0 +1,8 @@
+version: '3'
+services:
+  fox_bot_js:
+    build: node_modules
+    volumes:
+      - .:/app
+    env_file:
+      - .env
